@@ -1,9 +1,9 @@
 //std:: namespace, is the part of C++ Standard Library.
 #include <iostream> //This is for printing to the console
-#include <vector>//You can use std::vector(std::vector is the ) if you include this.
+#include <vector>//You can use std::vector(std::vector is the container class) if you include this.
 
 int main() { //This is for entry point to the C++ program
-    std::vector<int> v; //V is the variable name, vector is a dynamic array(like div in HTML), 
+    std::vector<int> v; //V is the variable name, vector is a dynamic array(like div in HTML).
     std::cout << v.size() << std::endl; //This is for print variable was named 'v', size() is member function returns the number of elements currently in the vector. This case will output 0 because v is empty. 
     v.push_back(20);
     v.push_back(10);
